@@ -1,4 +1,4 @@
-Hello!   This is the code repository for the [Tripal modules showcase site](https://statonlab.github.io/hardwoods_tripal_showcase/)!  This site showcases Tripal modules developed by the Staton laboratory and in use at [Hardwood Genomics](hardwoodgenomics.org).  Our hope is that you'll consider trying out our modules and collaborating with us!
+Hello!   This is the code repository for the [Our Tripal module showcase site](https://uofs-pulse-binfo.github.io/our-modules/)!  This site showcases Tripal modules developed by the University of Saskatchewan, Pulse Bioinformatics group and in use at [KnowPulse](http://knowpulse.usask.ca/portal).  Our hope is that you'll consider trying out our modules and collaborating with us!
 
 
 ### Setting up your own site
@@ -20,15 +20,16 @@ The below file is an example post.
 ```
 ---
 layout: post
-title:  "TripalDock"
-img: docker_logo.png
-github: https://github.com/statonlab/tripaldock
-zenodo_badge: https://zenodo.org/badge/DOI/10.5281/zenodo.1187125.svg
-zenodo_url: https://doi.org/10.5281/zenodo.1187125
+title:  "Tripal BLAST UI"
+img: blast_ui_submission.png
+homepage: https://www.drupal.org/project/tripal_blast
+github: https://github.com/tripal/tripal_blast
+zenodo_badge:
+zenodo_url:
+see_live: http://knowpulse.usask.ca/portal/blast/nucleotide/nucleotide
 ---
 
-* Wraps a Docker container running Tripal.  
-* Ideal for getting new developers up and running quickly.
+* Provides a simple UI for users to run NCBI BLAST through a Tripal site.
+* Ideal for providing organism-specific BLAST services.
 
 ```
-
