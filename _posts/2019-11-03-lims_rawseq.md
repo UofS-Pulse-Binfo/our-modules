@@ -7,8 +7,7 @@ github: https://github.com/UofS-Pulse-Binfo/lims_rawseq
 zenodo_badge:
 zenodo_url:
 see_live:
-categories: Regular
-projects: none
+categories: [Regular, AGILE-collaboration]
 ---
 
 Provides a simple node type for recording Sequencing Run details.

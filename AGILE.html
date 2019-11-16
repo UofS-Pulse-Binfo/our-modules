@@ -1,0 +1,126 @@
+---
+layout: default
+permalink: /AGILE.html
+---
+
+<p>The following modules were developed as part of the Application of Genomics to Innovation in the Lentil Economy (AGILE) project. These Tripal extension modules were funded through the following function partners as part of our Genome Canada Large Scale Applied Research Grant.</p>
+
+<div class="home">
+    <div class="row pack">
+
+      {% for post in site.categories.AGILE %}
+
+        <div class="col-md-4 top">
+            <a href="{{post.homepage}}" target="_blank" class="index-anchor">
+                <div class="panel panel-default">
+                    <div class="panel-image-container">
+                        {% if post.img %}
+                        <img class="card-image" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                        {% else %}
+                        <img class="card-image" src="{{site.baseurl}}/images/tripal_base.png" alt="{{site.title}}">
+                        {% endif %}
+                    </div>
+                    <div class="panel-content">
+                        <div class="panel-body">
+                            <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <small>
+                                {{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}
+                            </small>
+                        </div>
+                    </div><!-- /.panel-content -->
+
+                    <div class="panel-body">
+                        <span class="icon-span">
+                            {% if post.github %}
+                            <a href="{{post.github}}">
+                                <li class="social github"><i class="fa fa-github-square" data-placement="top" data-toggle="tooltip" title="See the module code on Github!"></i></li>
+                            </a>
+                            {% endif %}
+                                  {%if post.see_live %}
+                            <a href="{{post.see_live}}"><li class="social github">
+                                <i class="fa fa-eye" data-placement="top" data-toggle="tooltip" title="See the module in action at KnowPulse" aria-hidden="true"></i></li></a>
+                            {% endif %}
+
+                            {% if post.zenodo_badge %}
+                            {% if post.zenodo_url %}
+                            <a href="{{post.zenodo_url}}">
+                                <img class="social zenodo"
+                                     src="{{post.zenodo_badge}}"
+                                     alt="DOI"></a>
+                            {% endif %}
+                            {% endif %}
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+      {% endfor %}
+
+    </div>
+</div>
+
+<h4>Additional Modules Extended through Collaboration</h4>
+
+<p>These additional modules were extended through collaboration in order to enhance objectives in the AGILE grant. They include modules hosted by our team, as well as, those by trusted collaborators in the wider Tripal community. </p>
+
+<div class="home">
+    <div class="row pack">
+
+      {% for post in site.categories.AGILE-collaboration %}
+
+        <div class="col-md-4 top">
+            <a href="{{post.homepage}}" target="_blank" class="index-anchor">
+                <div class="panel panel-default">
+                    <div class="panel-image-container">
+                        {% if post.img %}
+                        <img class="card-image" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                        {% else %}
+                        <img class="card-image" src="{{site.baseurl}}/images/tripal_base.png" alt="{{site.title}}">
+                        {% endif %}
+                    </div>
+                    <div class="panel-content">
+                        <div class="panel-body">
+                            <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3>
+                        </div>
+
+                        <div class="panel-body">
+                            <small>
+                                {{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}
+                            </small>
+                        </div>
+                    </div><!-- /.panel-content -->
+
+                    <div class="panel-body">
+                        <span class="icon-span">
+                            {% if post.github %}
+                            <a href="{{post.github}}">
+                                <li class="social github"><i class="fa fa-github-square" data-placement="top" data-toggle="tooltip" title="See the module code on Github!"></i></li>
+                            </a>
+                            {% endif %}
+                                  {%if post.see_live %}
+                            <a href="{{post.see_live}}"><li class="social github">
+                                <i class="fa fa-eye" data-placement="top" data-toggle="tooltip" title="See the module in action at KnowPulse" aria-hidden="true"></i></li></a>
+                            {% endif %}
+
+                            {% if post.zenodo_badge %}
+                            {% if post.zenodo_url %}
+                            <a href="{{post.zenodo_url}}">
+                                <img class="social zenodo"
+                                     src="{{post.zenodo_badge}}"
+                                     alt="DOI"></a>
+                            {% endif %}
+                            {% endif %}
+                        </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+      {% endfor %}
+
+    </div>
+</div>

@@ -7,8 +7,7 @@ github: https://github.com/UofS-Pulse-Binfo/analyzedphenotypes
 zenodo_badge:
 zenodo_url:
 see_live: https://knowpulse.usask.ca/LentilTraits/2653916
-categories: Top
-projects: AGILE
+categories: [Top, AGILE]
 ---
 
 * This module provides support and visualization for large-scale partially analyzed phenotypic data.

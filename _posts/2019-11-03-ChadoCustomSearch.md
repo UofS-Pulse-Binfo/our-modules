@@ -7,8 +7,7 @@ github: https://github.com/UofS-Pulse-Binfo/chado_custom_search
 zenodo_badge:
 zenodo_url:
 see_live: https://knowpulse.usask.ca/search/germplasm/varieties
-categories: Highlighted
-projects: none
+categories: [Highlighted]
 ---
 
 Provides custom search functionality for those who don't wish to use Drupal Views.

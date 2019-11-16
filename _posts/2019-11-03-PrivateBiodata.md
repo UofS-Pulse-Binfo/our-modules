@@ -7,8 +7,7 @@ github: https://github.com/UofS-Pulse-Binfo/private_biodata
 zenodo_badge:
 zenodo_url:
 see_live:
-categories: Hightlighted
-projects: none
+categories: [Hightlighted, AGILE-collaboration]
 ---
 
 Do you need a way to keep some data private while other data remains public? This is your module!

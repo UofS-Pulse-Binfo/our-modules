@@ -7,8 +7,7 @@ github: https://github.com/tripal/trpfancy_fields
 zenodo_badge:
 zenodo_url:
 see_live:
-categories: Highlighted
-projects: none
+categories: [Highlighted]
 ---
 
 Provide additional fields to jazz up your Tripal Content Pages!

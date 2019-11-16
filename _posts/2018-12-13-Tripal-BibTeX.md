@@ -7,8 +7,7 @@ github: https://github.com/UofS-Pulse-Binfo/tripal_bibtex
 zenodo_badge:
 zenodo_url:
 see_live:
-categories: Regular
-prjects: none
+categories: [Regular]
 ---
 
 * Provides simple import of publications via BibTeX files.

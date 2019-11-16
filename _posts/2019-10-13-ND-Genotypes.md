@@ -7,8 +7,7 @@ github: https://github.com/UofS-Pulse-Binfo/nd_genotypes
 zenodo_badge:
 zenodo_url:
 see_live: http://knowpulse.usask.ca/portal/chado/genotype/Lens?germplasm%5B0%5D=6749&germplasm%5B1%5D=6751&page=1
-categories: Top
-projects: [SPG, EVOLVES]
+categories: [Top, SPG, EVOLVES, AGILE-collaboration]
 ---
 
 * Provides support and visualization of large-scale genotypic data.

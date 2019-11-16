@@ -7,8 +7,7 @@ github: https://github.com/tripal/tripal_blast
 zenodo_badge:
 zenodo_url:
 see_live: http://knowpulse.usask.ca/portal/blast/nucleotide/nucleotide
-categories: Highlighted
-projects: SPG
+categories: [Highlighted, SPG]
 ---
 
 * Provides a simple UI for users to run NCBI BLAST through a Tripal site.
